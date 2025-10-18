@@ -104,8 +104,13 @@ GitHub (2022) – A Historical Collection of Reentrancy Attacks
 
 ## Autores
 Nome	                                   Nº
+
 Francisco Rafael Carocinho Ribeiro	2024123
+
 José Samuel da Rocha Oliveira	2024172
+
 Tiago Filipe Sousa Carvalho	2024180
+
 Ana Rita da Silva Monteiro	2024041
+
 Vanina Kollen	2024056
