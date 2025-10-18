@@ -125,7 +125,7 @@ python3 scripts/get_balance.py
 python3 scripts/cashout.py
 Nota: os scripts pressupõem ligação a um nó local (Geth/Ganache) e contas desbloqueadas, bem como caminhos corretos para .abi e .bin.
 
-Contramedidas e Boas Práticas
+## Contramedidas e Boas Práticas
 PKI & TLS
 
 Garantir uso de chaves e algoritmos atualizados (p.ex. RSA ≥ 2048, ou ECC).
@@ -140,7 +140,7 @@ Usar mutex/reentrancy guard (ex.: bool locked ou ReentrancyGuard da OpenZeppelin
 Preferir transfer/send (com cautela e conforme a versão do Solidity) ou retirar para pull payments em vez de push payments.
 Revisões/auditorias com ferramentas automáticas (Slither, Mythril, Oyente).
 
- Referências
+ ##Referências
 SEED Labs – PKI & TLS & Reentrancy Labs (materiais base).
 
 Phil Daian — Analysis of the DAO exploit (2016).
