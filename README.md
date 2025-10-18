@@ -143,7 +143,11 @@ Rescorla, E. (2018) – The Transport Layer Security (TLS) Protocol 1.3
 ## Autores
 Nome                                    	Nº
 Francisco Rafael Carocinho Ribeiro	2024123
+
 José Samuel da Rocha Oliveira	2024172
+
 Tiago Filipe Sousa Carvalho	2024180
+
 Ana Rita da Silva Monteiro	2024041
+
 Vanina Kollen	2024056
