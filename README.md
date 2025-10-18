@@ -141,6 +141,7 @@ Stallings, W. (2017) – Cryptography and Network Security
 Rescorla, E. (2018) – The Transport Layer Security (TLS) Protocol 1.3
 
 ## Autores
+
 Nome                                    	Nº
 Francisco Rafael Carocinho Ribeiro	2024123
 
