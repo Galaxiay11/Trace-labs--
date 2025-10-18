@@ -140,7 +140,7 @@ Usar mutex/reentrancy guard (ex.: bool locked ou ReentrancyGuard da OpenZeppelin
 Preferir transfer/send (com cautela e conforme a versão do Solidity) ou retirar para pull payments em vez de push payments.
 Revisões/auditorias com ferramentas automáticas (Slither, Mythril, Oyente).
 
- ##Referências
+## Referências
 SEED Labs – PKI & TLS & Reentrancy Labs (materiais base).
 
 Phil Daian — Analysis of the DAO exploit (2016).
