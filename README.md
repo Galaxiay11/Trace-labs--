@@ -33,27 +33,48 @@ Na pasta documentação esta incluido o código fonte dos contratos, scripts Pyt
 
 .
 ├── PKI_TLS_Lab/
+
 │ ├── report/
+
 │ │ └── PKI_TLS_Report.md (ou PDF)
+
 │ ├── openssl_configs/
+
 │ ├── apache/
+
 │ └── tls_scripts/
+
 │ ├── handshake.py
+
 │ └── server.py
+
 │
 ├── Reentrancy_Lab/
+
 │ ├── contract/
+
 │ │ ├── ReentrancyVictim.sol
+
 │ │ └── ReentrancyAttacker.sol
+
 │ ├── scripts/
+
 │ │ ├── deploy_victim.py
+
 │ │ ├── deploy_attacker.py
+
 │ │ ├── launch_attack.py
+
 │ │ ├── get_balance.py
+
 │ │ └── cashout.py
+
 │ └── report/
+
 │ └── Reentrancy_Attack_Report.pdf
+
 │
+
 └── README.md
 
 
