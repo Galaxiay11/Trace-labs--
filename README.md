@@ -34,7 +34,7 @@ Os laboratórios abordam:
 - **Docker** e **SEED Labs Environment**
 - **Apache2**
 - **Python3** (scripts de cliente e servidor TLS)
-- **Wireshark** (análise de tráfego)
+- **Wireshark*
 - **curl**, **nano**, **bash**
 - **Certificados autoassinados**
 
@@ -142,13 +142,13 @@ Rescorla, E. (2018) – The Transport Layer Security (TLS) Protocol 1.3
 
 ## Autores
 
-Nome                                    	Nº
-Francisco Rafael Carocinho Ribeiro	2024123
+Nome                                   
+Francisco Rafael Carocinho Ribeiro
 
-José Samuel da Rocha Oliveira	2024172
+José Samuel da Rocha Oliveira
 
-Tiago Filipe Sousa Carvalho	2024180
+Tiago Filipe Sousa Carvalho	
 
-Ana Rita da Silva Monteiro	2024041
+Ana Rita da Silva Monteiro	
 
-Vanina Kollen	2024056
+Vanina Kollen	
