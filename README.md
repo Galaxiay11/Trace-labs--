@@ -9,13 +9,13 @@
 
 ## Resumo do Repositório
 
-Este repositório reúne os relatórios e os materiais práticos desenvolvidos pelos alunos no âmbito dos laboratórios:
+Este repositório reúne os relatórios e os materiais práticos desenvolvidos de acordo com os laboratórios:
 
 - **PKI Lab** — Infraestrutura de Chave Pública: criação de CA, CSR, certificados, deploy em Apache (HTTPS).
 - **TLS Lab** — Implementação e teste de cliente/servidor TLS em Python; configuração de SAN e testes com browser.
 - **Reentrancy Attack Lab** — Exploração de vulnerabilidade Reentrancy em smart contracts (Ethereum), implementação do contrato atacante e contramedidas.
 
-Na pasta documentação esta incluido o código fonte dos contratos, scripts Python para deploy e ataque, ficheiros de configuração OpenSSL e o relatório em PDF.
+Na pasta "documentação" é onde se encontra os relatórios e na pasta "codigo" o codigo de todos os laboratorios
 
 ---
 
@@ -76,8 +76,6 @@ Na pasta documentação esta incluido o código fonte dos contratos, scripts Pyt
 │
 
 └── README.md
-
-
 ---
 
 ## Ferramentas e Tecnologias (resumo)
