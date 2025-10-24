@@ -10,7 +10,7 @@
 ## Descrição
 
 Este laboratório prático tem como objetivo compreender e explorar a vulnerabilidade **Reentrancy Attack** em contratos inteligentes (*Smart Contracts*) baseados em Ethereum.  
-Através da criação de um **contrato vulnerável** (vítima) e um **contrato atacante**, foi possível observar na prática como a falha pode ser explorada para retirar fundos indevidamente, e de seguida aplicar contramedidas para mitigação.
+Através da criação de um contrato vulnerável (vítima) e um contrato atacante, foi possível observar na prática como a falha pode ser explorada para retirar fundos indevidamente e de seguida aplicar contramedidas para a minimização.
 
 ---
 
@@ -18,7 +18,7 @@ Através da criação de um **contrato vulnerável** (vítima) e um **contrato a
 
 - Analisar e compreender a vulnerabilidade de *Reentrância* em Smart Contracts.  
 - Implementar um contrato atacante funcional.  
-- Executar e monitorizar o ataque em ambiente controlado SEED Labs.  
+- Executar e monitorar o ataque em ambiente controlado SEED Labs.  
 - Aplicar técnicas de defesa (contramedidas).  
 - Consolidar conhecimentos de segurança em Blockchain e Solidity.
 
@@ -63,8 +63,6 @@ Reentrancy_Lab/
 
 └── report/
 
-└── CAC - Relatorio Reentrancy Attack LAB.pdf
-
 ---
 
 ##  Instruções de Execução
@@ -91,7 +89,7 @@ python3 cashout.py
 
 ## Contramedidas e Boas Práticas
 Padrão Checks-Effects-Interactions: atualizar o estado antes de enviar fundos.
-Utilizar bloqueios (mutex) para evitar chamadas reentrantes.
+Utilizar bloqueios para evitar chamadas reentrantes.
 Evitar uso direto de call.value(), preferindo transfer() ou send().
 Utilizar contratos auditados (ex.: OpenZeppelin ReentrancyGuard).
 Analisar contratos com ferramentas como Mythril, Slither, Oyente.
@@ -103,14 +101,13 @@ Antonopoulos & Wood (2018) – Mastering Ethereum
 GitHub (2022) – A Historical Collection of Reentrancy Attacks
 
 ## Autores
-Nome	                                   Nº
 
-Francisco Rafael Carocinho Ribeiro	2024123
+Francisco Rafael Carocinho Ribeiro	
 
-José Samuel da Rocha Oliveira	2024172
+José Samuel da Rocha Oliveira
 
-Tiago Filipe Sousa Carvalho	2024180
+Tiago Filipe Sousa Carvalho	
 
-Ana Rita da Silva Monteiro	2024041
+Ana Rita da Silva Monteiro	
 
-Vanina Kollen	2024056
+Vanina Kollen	
