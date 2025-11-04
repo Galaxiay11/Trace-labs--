@@ -15,8 +15,6 @@ Este repositório reúne os relatórios e os materiais práticos desenvolvidos d
 - **TLS Lab** — Implementação e teste de cliente/servidor TLS em Python; configuração de SAN e testes com browser.
 - **Reentrancy Attack Lab** — Exploração de vulnerabilidade Reentrancy em smart contracts (Ethereum), implementação do contrato atacante e contramedidas.
 
-Na pasta "documentação" é onde se encontra os relatórios e na pasta "codigo" o codigo de todos os laboratorios
-
 ---
 
 ## Autores
@@ -78,7 +76,7 @@ Na pasta "documentação" é onde se encontra os relatórios e na pasta "codigo"
 └── README.md
 ---
 
-## Ferramentas e Tecnologias (resumo)
+## Ferramentas e Tecnologias
 
 **PKI & TLS**
 - OpenSSL, Apache2, Docker, curl, Wireshark
@@ -126,17 +124,22 @@ Nota: os scripts pressupõem ligação a um nó local (Geth/Ganache) e contas de
 ## Contramedidas e Boas Práticas
 PKI & TLS
 
-Garantir uso de chaves e algoritmos atualizados (p.ex. RSA ≥ 2048, ou ECC).
-Configuração correta de SAN e chain de confiança.
-Automatizar renovação e monitoração (Let’s Encrypt, ACME quando aplicável).
+-Garantir uso de chaves e algoritmos atualizados (p.ex. RSA ≥ 2048, ou ECC).
+
+-Configuração correta de SAN e chain de confiança.
+
+-Automatizar renovação e monitoração (Let’s Encrypt, ACME quando aplicável).
 
 
 Reentrancy
 
-Padrão Checks-Effects-Interactions (actualizar estado antes de enviar fundos).
-Usar mutex/reentrancy guard (ex.: bool locked ou ReentrancyGuard da OpenZeppelin).
-Preferir transfer/send (com cautela e conforme a versão do Solidity) ou retirar para pull payments em vez de push payments.
-Revisões/auditorias com ferramentas automáticas (Slither, Mythril, Oyente).
+-Padrão Checks-Effects-Interactions (actualizar estado antes de enviar fundos).
+
+-Usar mutex/reentrancy guard (ex.: bool locked ou ReentrancyGuard da OpenZeppelin).
+
+-Preferir transfer/send (com cautela e conforme a versão do Solidity) ou retirar para pull payments em vez de push payments.
+
+-Revisões/auditorias com ferramentas automáticas (Slither, Mythril, Oyente).
 
 ## Referências
 SEED Labs – PKI & TLS & Reentrancy Labs (materiais base).
