@@ -34,7 +34,7 @@ Os laboratórios abordam:
 - **Docker** e **SEED Labs Environment**
 - **Apache2**
 - **Python3** (scripts de cliente e servidor TLS)
-- **Wireshark*
+- **Wireshark**
 - **curl**, **nano**, **bash**
 - **Certificados autoassinados**
 
