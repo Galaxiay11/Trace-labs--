@@ -88,11 +88,15 @@ python3 cashout.py
 
 
 ## Contramedidas e Boas Práticas
-Padrão Checks-Effects-Interactions: atualizar o estado antes de enviar fundos.
-Utilizar bloqueios para evitar chamadas reentrantes.
-Evitar uso direto de call.value(), preferindo transfer() ou send().
-Utilizar contratos auditados (ex.: OpenZeppelin ReentrancyGuard).
-Analisar contratos com ferramentas como Mythril, Slither, Oyente.
+-Padrão Checks-Effects-Interactions: atualizar o estado antes de enviar fundos.
+
+-Utilizar bloqueios para evitar chamadas reentrantes.
+
+-Evitar uso direto de call.value(), preferindo transfer() ou send().
+
+-Utilizar contratos auditados (ex.: OpenZeppelin ReentrancyGuard).
+
+-Analisar contratos com ferramentas como Mythril, Slither, Oyente.
 
 ## Referências
 SEED Labs – Reentrancy Attack
