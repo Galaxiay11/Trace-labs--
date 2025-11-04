@@ -12,8 +12,8 @@
 Este repositório reúne os relatórios e os materiais práticos desenvolvidos de acordo com os laboratórios:
 
 - **PKI Lab** — Infraestrutura de Chave Pública: criação de CA, CSR, certificados, deploy em Apache (HTTPS).
-- **TLS Lab** — Implementação e teste de cliente/servidor TLS em Python; configuração de SAN e testes com browser.
-- **Reentrancy Attack Lab** — Exploração de vulnerabilidade Reentrancy em smart contracts (Ethereum), implementação do contrato atacante e contramedidas.
+- **TLS Lab** — Implementação e teste de cliente/servidor TLS em Python, configuração de SAN e testes com browser.
+- **Reentrancy Attack Lab** — Exploração de vulnerabilidade Reentrancy em smart contracts (Ethereum) e implementação do contrato atacante.
 
 ---
 
