@@ -122,7 +122,7 @@ python3 scripts/cashout.py
 Nota: os scripts pressupõem ligação a um nó local (Geth/Ganache) e contas desbloqueadas, bem como caminhos corretos para .abi e .bin.
 
 ## Contramedidas e Boas Práticas
-PKI & TLS
+**PKI & TLS**
 
 -Garantir uso de chaves e algoritmos atualizados (p.ex. RSA ≥ 2048, ou ECC).
 
@@ -131,7 +131,7 @@ PKI & TLS
 -Automatizar renovação e monitoração (Let’s Encrypt, ACME quando aplicável).
 
 
-Reentrancy
+**Reentrancy**
 
 -Padrão Checks-Effects-Interactions (actualizar estado antes de enviar fundos).
 
